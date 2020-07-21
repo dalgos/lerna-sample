@@ -1,0 +1,52 @@
+{
+  "name": "first-page",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "dalgos <dalgos@dalgos.com>",
+  "homepage": "https://github.com/dalgos/lerna-sample#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalgos/lerna-sample.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "tsc",
+    "watch": "rollup -cw",
+    "tsc": "tsc --build",
+    "start": "tsc --watch"
+  },
+  "bugs": {
+    "url": "https://github.com/dalgos/lerna-sample/issues"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.4.0",
+    "@types/react": "^16.9.41",
+    "react": "^16.13.1",
+    "tsdx": "^0.13.2",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-node-resolve": "^8.1.0",
+    "@rollup/plugin-typescript": "^5.0.1",
+    "acorn-jsx": "^5.2.0",
+    "path": "^0.12.7",
+    "rollup": "^2.21.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "rollup-watch": "^4.3.1",
+    "ts-loader": "^8.0.0",
+    "typescript": "^3.9.6",
+    "webpack-cli": "^3.3.12"
+  }
+}
